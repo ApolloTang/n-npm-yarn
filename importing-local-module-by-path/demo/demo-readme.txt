@@ -66,8 +66,8 @@ $ tree ../
 -------------
 
 $ cat > index.js
-var moduleToImport = require('module-to-import');
-moduleToImport();
+var importedPackage = require('package-to-import');
+importedPackage();
 ^D
 
 $ node index.js
