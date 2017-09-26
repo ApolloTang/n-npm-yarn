@@ -1,0 +1,9 @@
+{
+  "name": "main-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "package-to-import": "file:../package-to-import"
+  }
+}
